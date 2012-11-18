@@ -1,15 +1,9 @@
 class ItemsViewController < UITableViewController
 
-  # def init
-  #   # Call the superclass's designated initializer
-  #   super.initWithStyle(UITableViewStyleGrouped)
-
-  #   return self
-  # end
-
-  # def initWithStyle(style)
-  #     return self.init
-  # end
+  def init
+    # Call the superclass's designated initializer
+    return self.initWithStyle(UITableViewStyleGrouped)
+  end
 
   def viewDidLoad
     super()

@@ -3,7 +3,7 @@ class AppDelegate
 
     @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
     # Create a ItemsViewController
-    itemsViewController = ItemsViewController.alloc.initWithStyle(UITableViewStyleGrouped)
+    itemsViewController = ItemsViewController.alloc.init
 
     # Misa: You can comment this line out in order to avoid using the AnotherViewController
     # itemsViewController.tableView.setDataSource(AnotherViewController.new)   
